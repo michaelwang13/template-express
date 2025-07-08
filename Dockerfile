@@ -13,4 +13,4 @@ EXPOSE 3000
 
 ARG DATABASE_URL
 
-CMD ["bin/sh"]
+CMD [ "npm", "start" ]
